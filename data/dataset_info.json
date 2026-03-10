@@ -1,4 +1,7 @@
 {
+  "my_essay_task": {
+    "file_name": "composition_eval.json"
+  },
   "identity": {
     "file_name": "identity.json"
   },
