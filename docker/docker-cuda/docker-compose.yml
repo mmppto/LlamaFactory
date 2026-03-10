@@ -22,3 +22,7 @@ services:
             count: "all"
             capabilities: [ gpu ]
     restart: unless-stopped
+    volumes:
+      - D:/Desktop/LlamaFactory/data:/app/data
+      - D:/Desktop/LlamaFactory/output:/app/output
+      - D:/Desktop/LlamaFactory/saves:/app/saves
