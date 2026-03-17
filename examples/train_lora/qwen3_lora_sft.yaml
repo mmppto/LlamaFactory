@@ -1,5 +1,5 @@
 ### model
-model_name_or_path: Qwen/Qwen3-4B-Instruct-2507
+model_name_or_path: /srv/nfs/data/njnu_zwh/models/Qwen3-4B-Instruct-2507
 trust_remote_code: true
 
 ### method
@@ -13,7 +13,7 @@ lora_target: all
 dataset: identity,alpaca_en_demo
 template: qwen3_nothink
 cutoff_len: 2048
-max_samples: 1000
+# max_samples: 1000
 preprocessing_num_workers: 16
 dataloader_num_workers: 4
 
